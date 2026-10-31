@@ -33,7 +33,7 @@ docker run -it --name tg2-rviz --net=host \
   -e RMW_IMPLEMENTATION=rmw_fastrtps_cpp \
   -e FASTRTPS_DEFAULT_PROFILES_FILE=/root/fastdds.xml \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
-  -v $HOME/Robotics/walker-viz/fastdds.xml:/root/fastdds.xml \
+  -v $HOME/walker-viz/fastdds.xml:/root/fastdds.xml \
   --device /dev/dri \
   walker-viz:vf bash
 ```
